@@ -1,0 +1,148 @@
+CRITICAL - 2023-09-24 00:29:16 --> Call to a member function database() on null
+in APPPATH\Models\usuario_Model.php on line 17.
+ 1 APPPATH\Controllers\login_controller.php(20): App\Models\usuario_Model->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\login_controller->auth()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\login_controller))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-24 00:30:35 --> Invalid argument supplied for foreach()
+in APPPATH\Views\back\usuario\usuario_logueado.php on line 21.
+ 1 APPPATH\Views\back\usuario\usuario_logueado.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argument supplied for foreach()', 'C:\\xampp\\htdocs\\primer_proyecto\\app\\Views\\back\\usuario\\usuario_logueado.php', 21, [...])
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\primer_proyecto\\app\\Views\\back\\usuario\\usuario_logueado.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('back/usuario/usuario_logueado', [], true)
+ 5 APPPATH\Controllers\panel_controller.php(17): view('back/usuario/usuario_logueado')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\panel_controller->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\panel_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-24 00:33:56 --> Call to a member function ver() on null
+in APPPATH\Controllers\usuario_controller.php on line 64.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\usuario_controller->mostrarUsuarios()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\usuario_controller))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-24 00:34:38 --> Call to a member function ver() on null
+in APPPATH\Controllers\usuario_controller.php on line 64.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\usuario_controller->mostrarUsuarios()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\usuario_controller))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-24 00:36:11 --> Call to a member function ver() on null
+in APPPATH\Controllers\usuario_controller.php on line 64.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\usuario_controller->mostrarUsuarios()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\usuario_controller))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-24 00:37:56 --> Call to a member function ver() on null
+in APPPATH\Controllers\usuario_controller.php on line 64.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\usuario_controller->mostrarUsuarios()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\usuario_controller))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-24 00:38:34 --> Call to a member function ver() on null
+in APPPATH\Controllers\usuario_controller.php on line 64.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\usuario_controller->mostrarUsuarios()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\usuario_controller))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-24 00:39:05 --> Call to a member function ver() on null
+in APPPATH\Controllers\usuario_controller.php on line 64.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\usuario_controller->mostrarUsuarios()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\usuario_controller))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-24 00:40:28 --> Call to a member function ver() on null
+in APPPATH\Controllers\usuario_controller.php on line 64.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\usuario_controller->mostrarUsuarios()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\usuario_controller))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-24 00:42:09 --> Call to a member function ver() on null
+in APPPATH\Controllers\usuario_controller.php on line 64.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\usuario_controller->mostrarUsuarios()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\usuario_controller))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-24 00:44:22 --> Call to a member function ver() on null
+in APPPATH\Controllers\usuario_controller.php on line 64.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\usuario_controller->mostrarUsuarios()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\usuario_controller))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-24 00:46:08 --> Call to a member function ver() on null
+in APPPATH\Controllers\usuario_controller.php on line 64.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\usuario_controller->mostrarUsuarios()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\usuario_controller))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-24 21:54:37 --> Invalid file: "back/usuario/ver_usuario.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('back/usuario/ver_usuario.php')
+ 2 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('back/usuario/ver_usuario', [], true)
+ 3 APPPATH\Controllers\usuario_controller.php(73): view('back/usuario/ver_usuario', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\usuario_controller->verUsuarios()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\usuario_controller))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-24 22:11:51 --> Call to undefined method App\Controllers\usuario_controller::campo_validacion()
+in APPPATH\Controllers\usuario_controller.php on line 99.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\usuario_controller->actualizar()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\usuario_controller))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-24 22:22:57 --> Call to a member function has() on null
+in APPPATH\Controllers\usuario_controller.php on line 53.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\usuario_controller->formValidation()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\usuario_controller))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-24 22:26:23 --> Call to a member function has() on null
+in APPPATH\Controllers\usuario_controller.php on line 53.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\usuario_controller->formValidation()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\usuario_controller))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-09-24 22:29:02 --> mysqli_sql_exception: Unknown column 'baja' in 'field list' in C:\xampp\htdocs\primer_proyecto\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\primer_proyecto\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `us...', 0)
+#1 C:\xampp\htdocs\primer_proyecto\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\xampp\htdocs\primer_proyecto\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\xampp\htdocs\primer_proyecto\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\xampp\htdocs\primer_proyecto\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\primer_proyecto\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\primer_proyecto\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\primer_proyecto\system\BaseModel.php(692): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\primer_proyecto\app\Controllers\usuario_controller.php(40): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\primer_proyecto\system\CodeIgniter.php(932): App\Controllers\usuario_controller->formValidation()
+#10 C:\xampp\htdocs\primer_proyecto\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\usuario_controller))
+#11 C:\xampp\htdocs\primer_proyecto\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\primer_proyecto\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2023-09-24 22:29:02 --> Unknown column 'baja' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `usuarios` (`nombre`, `apellido`, `usuario`, `email`, `pass`, `baja`) VALUES (\'rrr\', \'qqq\', \'1234\', \'wsw@gmail.com\', \'$2y$10$uyAUAMA5.zLQo9.H73Y0Le7FMlKH/G6UATpBV1QOwm2LIr1UvHB0K\', NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `usuarios` (`nombre`, `apellido`, `usuario`, `email`, `pass`, `baja`) VALUES (\'rrr\', \'qqq\', \'1234\', \'wsw@gmail.com\', \'$2y$10$uyAUAMA5.zLQo9.H73Y0Le7FMlKH/G6UATpBV1QOwm2LIr1UvHB0K\', NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `usuarios` (`nombre`, `apellido`, `usuario`, `email`, `pass`, `baja`) VALUES (\'rrr\', \'qqq\', \'1234\', \'wsw@gmail.com\', \'$2y$10$uyAUAMA5.zLQo9.H73Y0Le7FMlKH/G6UATpBV1QOwm2LIr1UvHB0K\', NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `usuarios` (`nombre`, `apellido`, `usuario`, `email`, `pass`, `baja`) VALUES (:nombre:, :apellido:, :usuario:, :email:, :pass:, :baja:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(692): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Controllers\usuario_controller.php(40): CodeIgniter\BaseModel->save([...])
+10 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\usuario_controller->formValidation()
+11 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\usuario_controller))
+12 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-24 22:30:03 --> Call to a member function has() on null
+in APPPATH\Controllers\usuario_controller.php on line 45.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\usuario_controller->formValidation()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\usuario_controller))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-24 23:35:29 --> Call to undefined method CodeIgniter\Session\Session::setFlachdata()
+in APPPATH\Controllers\login_controller.php on line 31.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\login_controller->auth()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\login_controller))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

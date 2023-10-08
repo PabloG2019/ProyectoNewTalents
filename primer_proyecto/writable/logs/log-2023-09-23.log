@@ -1,0 +1,81 @@
+CRITICAL - 2023-09-23 23:09:13 --> Call to a member function get_usuario() on null
+in APPPATH\Controllers\panel_controller.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\panel_controller->index()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\panel_controller))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-23 23:09:26 --> Call to a member function database() on null
+in APPPATH\Models\usuario_Model.php on line 13.
+ 1 APPPATH\Controllers\login_controller.php(20): App\Models\usuario_Model->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\login_controller->auth()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\login_controller))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-23 23:10:20 --> Call to a member function database() on null
+in APPPATH\Models\usuario_Model.php on line 13.
+ 1 APPPATH\Controllers\login_controller.php(20): App\Models\usuario_Model->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\login_controller->auth()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\login_controller))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-23 23:10:29 --> Call to a member function database() on null
+in APPPATH\Models\usuario_Model.php on line 13.
+ 1 APPPATH\Controllers\login_controller.php(20): App\Models\usuario_Model->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\login_controller->auth()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\login_controller))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-23 23:10:55 --> Call to a member function get_usuario() on null
+in APPPATH\Controllers\panel_controller.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\panel_controller->index()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\panel_controller))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-23 23:13:10 --> Call to a member function get_usuarios() on null
+in APPPATH\Controllers\panel_controller.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\panel_controller->index()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\panel_controller))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-23 23:13:17 --> Call to a member function get_usuarios() on null
+in APPPATH\Controllers\panel_controller.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\panel_controller->index()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\panel_controller))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-23 23:13:52 --> Call to a member function get_usuarios() on null
+in APPPATH\Controllers\panel_controller.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\panel_controller->index()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\panel_controller))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-23 23:14:47 --> Call to a member function get_usuarios() on null
+in APPPATH\Controllers\panel_controller.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\panel_controller->index()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\panel_controller))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-23 23:15:04 --> Call to a member function get_usuarios() on null
+in APPPATH\Controllers\panel_controller.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\panel_controller->index()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\panel_controller))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-23 23:20:27 --> Call to a member function database() on null
+in APPPATH\Models\usuario_Model.php on line 13.
+ 1 APPPATH\Controllers\login_controller.php(20): App\Models\usuario_Model->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\login_controller->auth()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\login_controller))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-09-23 23:53:30 --> Invalid argument supplied for foreach()
+in APPPATH\Views\back\usuario\usuario_logueado.php on line 21.
+ 1 APPPATH\Views\back\usuario\usuario_logueado.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argument supplied for foreach()', 'C:\\xampp\\htdocs\\primer_proyecto\\app\\Views\\back\\usuario\\usuario_logueado.php', 21, [...])
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\primer_proyecto\\app\\Views\\back\\usuario\\usuario_logueado.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1176): CodeIgniter\View\View->render('back/usuario/usuario_logueado', [], true)
+ 5 APPPATH\Controllers\panel_controller.php(17): view('back/usuario/usuario_logueado')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\panel_controller->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\panel_controller))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
